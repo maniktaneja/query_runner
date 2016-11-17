@@ -1,0 +1,2 @@
+create table if not exists push_notif_results (type varchar(100), value bigint, timestamp bigint);
+create table if not exists count_user_load_results(os varchar(50), appver int, value int, timestamp bigint);
